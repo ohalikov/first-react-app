@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.flyingBlock{
+  border: 1px solid black;
+  width: 200px;
+  height: 100px;
+}
