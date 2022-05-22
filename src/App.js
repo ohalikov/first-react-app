@@ -1,11 +1,11 @@
 import React from 'react';
-import FlyingBlock from './components/FlyingBlock';
+import MovebleBlock from './components/MovebleBlock';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <FlyingBlock/>
+      <MovebleBlock id={1} />
     </div>
   );
 }

@@ -4,8 +4,12 @@
   min-height: 100vh;
 }
 
-.flyingBlock{
-  border: 1px solid black;
+.Moveble-block {
   width: 200px;
   height: 100px;
+  border: 2px solid black;
+  z-index: 1;
+  position: absolute;
+  cursor: grab;
+  text-align: center;
 }
